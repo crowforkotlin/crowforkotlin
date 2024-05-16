@@ -1,3 +1,3 @@
-It's too late
+In the end, it’s still…
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=CrowForKotlin&show_icons=true&theme=radical)
