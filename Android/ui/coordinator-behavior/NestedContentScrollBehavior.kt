@@ -22,17 +22,42 @@ import com.crow.mangax.R
 class NestedContentScrollBehavior @JvmOverloads constructor(context: Context? = null, attrs: AttributeSet? = null) :
         CoordinatorLayout.Behavior<View>(context, attrs) {
 
-    class SavedState : AbsSavedState {
-        var mTranslationY = 0f
-        constructor(source: Parcel) : super(source) {
+    
+class SavedState : AbsSavedState {
+        var mTranslationY: Float = 0f
+
+        constructor(parcel: Parcel) : super(parcel) {
+            mTranslationY = parcel.readFloat()
+}
+
+        constructor(source: Parcel, loader: ClassLoader?) : super(source, loader) {
             mTranslationY = source.readFloat()
         }
-        constructor(source: Parcel, classLoader: ClassLoader) : super(source, classLoader) {
-            mTranslationY = source.readFloat()
-        }
+
         constructor(superState: Parcelable) : super(superState)
+
         override fun writeToParcel(dest: Parcel, flags: Int) {
+            super.writeToParcel(dest, flags)
             dest.writeFloat(mTranslationY)
+        }
+
+
+        override fun describeContents(): Int {
+            return 0
+        }
+
+        companion object CREATOR : ClassLoaderCreator<SavedState> {
+            override fun createFromParcel(source: Parcel, loader: ClassLoader?): SavedState {
+                return SavedState(source, loader)
+            }
+
+            override fun createFromParcel(source: Parcel): SavedState {
+                return SavedState(source, null)
+            }
+
+            override fun newArray(size: Int): Array<SavedState?> {
+                return arrayOfNulls(size)
+            }
         }
     }
 
