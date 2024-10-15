@@ -13,7 +13,13 @@ import androidx.customview.view.AbsSavedState
 import com.crow.base.tools.extensions.log
 import com.crow.mangax.R
 
-class MangaXNestedContentScrollBehavior @JvmOverloads constructor(context: Context? = null, attrs: AttributeSet? = null) :
+/**
+* CoordinatorLayout 滚动View头部需加入此behavior !!! 需要加入id "base_child" !!!
+*
+* @author:crow
+* @time:2024-10-15 13:49:39 下午 星期二
+*/
+class NestedContentScrollBehavior @JvmOverloads constructor(context: Context? = null, attrs: AttributeSet? = null) :
         CoordinatorLayout.Behavior<View>(context, attrs) {
 
     class SavedState : AbsSavedState {
