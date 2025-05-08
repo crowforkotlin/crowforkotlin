@@ -1,0 +1,88 @@
+{
+  "keymap": [
+    {
+      "key": "alt-j",
+      "action": "arrow-down"
+    },
+    {
+      "key": "alt-k",
+      "action": "arrow-up"
+    },
+    {
+      "key": "return",
+      "action": "-arrow-up"
+    },
+    {
+      "key": "alt-h",
+      "action": "arrow-left"
+    },
+    {
+      "key": "alt-l",
+      "action": "arrow-right"
+    },
+    {
+      "key": "shift-alt-v",
+      "action": "completion"
+    },
+    {
+      "key": "alt-e",
+      "action": "reformat-code"
+    },
+    {
+      "key": "shift-alt-graveaccent",
+      "action": "open-settings"
+    },
+    {
+      "key": "ctrl-alt-digit1",
+      "action": "files/rename"
+    },
+    {
+      "key": "alt-return",
+      "action": "-quick-fixes"
+    },
+    {
+      "key": "alt-q",
+      "action": "quick-fixes"
+    },
+    {
+      "key": "shift-alt-digit9",
+      "action": "next-tab"
+    },
+    {
+      "key": "shift-alt-digit8",
+      "action": "prev-tab"
+    },
+    {
+      "key": "shift-alt-digit8",
+      "action": "prev-tab"
+    },
+    {
+      "key": "shift-alt-digit0",
+      "action": "close-tab"
+    },
+    {
+      "key": "shift-alt-equalssign",
+      "action": "tabs/close-all-tabs"
+    },
+    {
+      "key": "shift-alt-equalssign",
+      "action": "editor/close-popup"
+    },
+    {
+      "key": "shift-alt-minus",
+      "action": "tabs/close-other-tabs"
+    },
+    {
+      "key": "shift-alt-digit7",
+      "action": "goto/file"
+    },
+    {
+      "key": "shift-alt-digit1",
+      "action": "goto/action"
+    },
+    {
+      "key": "shift-alt-backslash",
+      "action": "show-in-file-manager"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "theme": "light",
+    "keymap": "intellij",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 16.0,
+    "editor.ligatures": false,
+    "editor.softWrapEnabled": false,
+    "vimEmulationEnabled": true,
+    "fus.sendAllowed": false,
+    "showShortcuts": true,
+    "collaboration.displayName": "crowforkotlin"
+}
