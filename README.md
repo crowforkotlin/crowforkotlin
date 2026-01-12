@@ -2,7 +2,7 @@
 
   <!-- 动态打字机标题 (向上偏移一点点，融入雪花) -->
   <a href="https://github.com/crowforkotlin">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Hi,+I'm+crowforkotlin;In+the+end,+it%E2%80%99s+still...;Code+Is+Life." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Hi,+I'm+crowforkotlin;In+the+end,+it%E2%80%99s+still...;Some goodbyes turn into forever." alt="Typing SVG" />
   </a>
 
   <!-- 技术栈图标 -->
