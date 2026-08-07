@@ -1,15 +1,23 @@
-
-    <svg width="576.5"  height="120" viewBox="0 0 576.5 120" fill="#1a1b27" xmlns="http://www.w3.org/2000/svg">
-    <style>
-    .text { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd }
-    .small { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdae }
-    .gray { fill: #858585 }
-    </style>
-    <rect x="0.5" y="0.5" width="575.5" height="99%" rx="4.5" fill="#1a1b27" stroke="#e4e2e2"/>
-    <text x="25" y="45" class="text">Something went wrong! file an issue at https://tiny.one/readme-stats</text>
-    <text data-testid="message" x="25" y="55" class="text small">
-      <tspan x="25" dy="18">Resource not accessible by integration</tspan>
-      <tspan x="25" dy="18" class="gray">OK</tspan>
-    </text>
-    </svg>
-  
+<svg width="467" height="165" viewBox="0 0 467 165" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">crowforkotlin's GitHub snapshot</title>
+  <desc id="desc">A static snapshot of GitHub activity.</desc>
+  <style>
+    .title { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #79c0ff; }
+    .label { font: 600 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c9d1d9; }
+    .value { font: 700 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #3fb950; }
+  </style>
+  <rect x="0.5" y="0.5" width="466" height="164" rx="8" fill="#161b22" stroke="#30363d" />
+  <text class="title" x="24" y="31">GitHub snapshot</text>
+  <text class="label" x="24" y="67">Stars earned</text>
+  <text class="value" x="190" y="67">1.6k</text>
+  <text class="label" x="24" y="95">Commits (last year)</text>
+  <text class="value" x="190" y="95">359</text>
+  <text class="label" x="24" y="123">Pull requests</text>
+  <text class="value" x="190" y="123">94</text>
+  <text class="label" x="275" y="67">Issues</text>
+  <text class="value" x="445" y="67" text-anchor="end">104</text>
+  <text class="label" x="275" y="95">Contributions / yr</text>
+  <text class="value" x="445" y="95" text-anchor="end">17</text>
+  <text class="label" x="275" y="123">Profile rank</text>
+  <text class="value" x="445" y="123" text-anchor="end">A</text>
+</svg>
