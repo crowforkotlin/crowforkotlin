@@ -1,0 +1,21 @@
+<svg width="467" height="145" viewBox="0 0 467 145" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">crowforkotlin's GitHub statistics</title>
+  <desc id="desc">A static snapshot of GitHub activity.</desc>
+  <style>
+    .label { font: 600 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c9d1d9; }
+    .value { font: 700 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #3fb950; }
+  </style>
+  <rect x="0.5" y="0.5" width="466" height="144" rx="8" fill="#161b22" stroke="#30363d" />
+  <text class="label" x="24" y="42">Stars earned</text>
+  <text class="value" x="190" y="42">1.6k</text>
+  <text class="label" x="24" y="70">Commits / year</text>
+  <text class="value" x="190" y="70">359</text>
+  <text class="label" x="24" y="98">Pull requests</text>
+  <text class="value" x="190" y="98">94</text>
+  <text class="label" x="275" y="42">Issues</text>
+  <text class="value" x="445" y="42" text-anchor="end">104</text>
+  <text class="label" x="275" y="70">Contributions / year</text>
+  <text class="value" x="445" y="70" text-anchor="end">17</text>
+  <text class="label" x="275" y="98">Profile rank</text>
+  <text class="value" x="445" y="98" text-anchor="end">A</text>
+</svg>
