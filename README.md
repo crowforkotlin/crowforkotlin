@@ -19,15 +19,12 @@
     <img src="https://img.shields.io/badge/GitHub-crowforkotlin-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
-
-<br />
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/crowforkotlin/crowforkotlin/main/profile/github-stats-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/crowforkotlin/crowforkotlin/main/profile/github-stats-light.svg" />
   <img src="https://raw.githubusercontent.com/crowforkotlin/crowforkotlin/main/profile/github-stats-dark.svg" width="467" alt="GitHub statistics" />
 </picture>
-&nbsp;
+<br />
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/crowforkotlin/crowforkotlin/main/profile/langs-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/crowforkotlin/crowforkotlin/main/profile/langs-light.svg" />
